@@ -22,10 +22,10 @@ Essentially I should be setting up a venv for every python project I do, as the 
 ## Python virtual environment setup
 python3 -m venv pytorchTutorial
 ### activate:
-source pytorchTutorial/bin/activate
-pip install --upgrade pip
-pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 --index-url https://download.pytorch.org/whl/cu117
-pip install matplotlib
+source pytorchTutorial/bin/activate  
+pip install --upgrade pip  
+pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 --index-url https://download.pytorch.org/whl/cu117  
+pip install matplotlib  
 pip install "numpy<2" pandas pillow
 
 ### run the code:
