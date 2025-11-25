@@ -1,4 +1,4 @@
-Video 1: What is a Neural Network?
+# Video 1: What is a Neural Network?
 Take a 28x28 b&w image and make each point a neuron in your first layer. It's activation is how much white there is for that pixel.
 Neuron activation is measured from 0.0 to 1.0.
 Create a tensor of each of these 784 neurons.
@@ -18,5 +18,27 @@ Remember! There are 784 neurons in the first layer, 16 in the second so 764 x 16
 
 Learning is finding the right weights and balances. 
 
-Math:
+### Math:  
 Organize all the activations in one layer into a vector, and all of the weights as a matrix. Each row is the set of weights between all the neurons in the first and one neuron in the second. So you're just doing matrix vector multiplication and it's linear algebra all the way down..
+
+### Bias: how likely that neuron is to be activated.
+Instead of Sigmoid people use ReLU as it's easier to train. 
+
+# Video 2: Gradient descent and how neural networks learn.
+## Cost functions.
+Weights and biases are initially random.  
+Define a cost function: Add up the squares of the differences between the current output and what you want. This is the cost of a single training example.  
+Average cost over all training is a measure of how bad the network is.  
+Then do gradient decent: which direction gives me a lower cost function? Step size proportional to the slope.  
+All 13k weights and biases are put into a giant vector. The cost function is then a corresponding vector with differences to apply.  
+Computing the gradient efficiently is called backpropagation.  
+Learning is just minimizing the cost function. 
+## Careful:
+The description of how the network might learn is completely wrong. It picks up on whatever patterns work. If you give it random noise it might guess 5.
+Multiplayer perception that we've learned so far is tech from 40 years ago.
+Giving structured data, properly labelled data, lets it learn faster so it's not just memorising.
+## Memorization of the whole test dataset is an issue.
+
+# Video 3: Backpropagation
+
+
