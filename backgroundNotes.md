@@ -22,7 +22,13 @@ Learning is finding the right weights and balances.
 Organize all the activations in one layer into a vector, and all of the weights as a matrix. Each row is the set of weights between all the neurons in the first and one neuron in the second. So you're just doing matrix vector multiplication and it's linear algebra all the way down..
 
 ### Bias: how likely that neuron is to be activated.
+### ReLU
 Instead of Sigmoid people use ReLU as it's easier to train. 
+https://www.youtube.com/watch?v=zeRKZFJo-S8
+Relu: -ve become 0, +ve stays the same. Computationally simple. Makes training easy. Can kill neurons (be always 0) if you frequently get -ve values or make big changes too fast. Leaky relu can help mitigate this.
+Non-linearity in activations is required so non-linear relationships can be learned. Allows NN to approimate any continuous function, otherwise you are just doing linear regression.
+Note: ReLU is locally linear, but the zero point breaks linearity when you stack many layers and some of the neurons stay off. So you get many tiny linear pieces that make up something non-linear.
+
 
 # Video 2: Gradient descent and how neural networks learn.
 ## Cost functions.
