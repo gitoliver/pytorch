@@ -45,6 +45,16 @@ Multiplayer perception that we've learned so far is tech from 40 years ago.
 Giving structured data, properly labelled data, lets it learn faster so it's not just memorising.
 ## Memorization of the whole test dataset is an issue.
 
+# Sidequest: Geometric learning
+Wondering about data formats like molecules and came across this: https://dataroots.io/blog/a-gentle-introduction-to-geometric  
+### Convolutional Neural Networks:  
+Slide a small matrix (aka filter) over an image and perform multiplication followed by sum to produce another matrix. You extract low level features like edges, shapes, bright spots.  
+Thereare two nice images there showing layers of convultion happening before pooling into a flattened layer that gets put into a connected NN. Feature extraction and then classification.  
+### Universal approximation theorem:
+You can approximate any continuous function with a NN. But you need a lot of samples to approximate a multidimensional function. You can fix by projecting onto lower dimensional space using e.g. principle component, but you can lose important info this way.  
+
+https://towardsdatascience.com/geometric-priors-i-cc9dc748f08/
+
 # Video 3: Backpropagation
 
 
