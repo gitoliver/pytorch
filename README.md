@@ -1,3 +1,6 @@
+# What is this repo:
+I'm going through the Pytorch Basic tutorials and 3Blue1brown videos to learn about machine learning. My background includes programming in Python and I'm comfortable in Linux. To clarify the tutorial code, help with pytorch syntax and some ML concepts I used Claude.ai with Sonnet 4.5.
+
 # Neural Network Background info:
 I watched the [Neural Networks videos series](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
  from [3Blue1Brown](https://www.youtube.com/@3blue1brown).  
@@ -5,12 +8,12 @@ I watched the [Neural Networks videos series](https://www.youtube.com/watch?v=ai
  See the notes I made as I watched here [backgroundNotes.md](backgroundNotes.md)
 
 # Venv and Tutorial Setup Notes:
-For setup my GPU is too old for the latest version of pytorch, so I had to install an earlier version. 
+For setup my GPU wss too old for the latest version of pytorch, so I had to install an earlier version. 
 See below in the virtual env setup or look in [requirements.txt](requirements.txt)
 
-My GPU: NVIDIA GeForce GTX 1060 6GB device  
+My 2016 GPU: NVIDIA GeForce GTX 1060 6GB device  
 
-This required altering the tutorial code to not use the "accelerator" class or functions, but the older "cuda" one. Another open is to have the device/accelerator be cpu, but I didn't explore that.
+This required altering the tutorial code to not use the "accelerator" class or functions, but the older "cuda" one. Another open is to have the device/accelerator be cpu, which is the default, but you see very nice speedups even with an old GPU so very much worth it.
 
 ## Python venv motivation
 For tutorial 2, I got this error:  
