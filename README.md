@@ -1,5 +1,5 @@
 # What is this repo:
-I'm going through the Pytorch Basic tutorials and 3Blue1brown videos to learn about machine learning. My background includes programming in Python and I'm comfortable in Linux. To clarify the tutorial code, help with pytorch syntax and some ML concepts I used Claude.ai with Sonnet 4.5.
+I'm going through the Pytorch Basic tutorials and 3Blue1brown videos to learn about machine learning. My background includes programming in Python and I'm comfortable in Linux. To clarify the tutorial code, help with pytorch syntax and some ML concepts I used Claude.ai with Sonnet 4.5. A lot of my notes ended up as comments around specific pieces of code, so check the .py files.
 
 # Neural Network Background info:
 I watched the [Neural Networks videos series](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
